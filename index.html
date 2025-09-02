@@ -4,13 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Streaming Avatar - Khalid</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden; /* Prevent scrollbars */
+      }
+
+      #avatar-container {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
   </head>
   <body>
     <!-- Container for the Avatar -->
-    <div
-      id="avatar-container"
-      style="width: 800px; height: 1800px; margin: auto;"
-    ></div>
+    <div id="avatar-container"></div>
 
     <!-- D-ID Agent Script -->
     <script
